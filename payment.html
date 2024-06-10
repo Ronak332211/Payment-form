@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Form</h2>
+        <form action="/submit_payment" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your First name.  eg.Ronak" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your Last name.  eg.Nehara" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder=" Enter your EMail.  eg, ronak123@gmail.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX" required>
+
+            <label for="cardnumber">Card Number</label>
+            <input type="number" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+
+            <label for="expmonth">Expiration Month</label>
+            <select id="expmonth" name="expmonth" required>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+
+            <label for="expyear">Expiration Year</label>
+            <input type="number" id="expyear" name="expyear" placeholder="Enter year of Expiration.  eg.2024" required>
+
+            <label for="cvv">CVV</label>
+            <input type="number" id="cvv" name="cvv" placeholder="123" required>
+
+            <label for="billingaddress">Billing Address</label>
+            <input type="text" id="billingaddress" name="billingaddress" placeholder="123 Main St" required>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city.  eg.Jaipur" required>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder=" Enter your state.  eg.Rajasthan" required>
+
+            <label for="zip">Pin Code</label>
+            <input type="text" id="pin" name="pin" placeholder="10001" required>
+
+            <input type="submit" value="Submit Payment">
+        </form>
+    </div>
+</body>
+</html>
