@@ -28,7 +28,7 @@ To set up this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
     ```sh
-    git clone ...........................................
+    git clone https://github.com/Ronak332211/Payment-form.git
     ```
 
 2. Navigate to the project directory:
